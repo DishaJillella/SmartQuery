@@ -1,14 +1,11 @@
-# SmartQuery
-
-```markdown
-SmartQuery: Offline Document-Based Question Answering System (RAG)
+#  SmartQuery: Offline Document-Based Question Answering System (RAG)
 
 **SmartQuery** is a **Retrieval-Augmented Generation (RAG)** system that answers user questions based on the content of uploaded research papers — **completely offline**.
 
 Unlike API-based systems, SmartQuery uses **local embeddings**, **FAISS-based vector search**, and **offline LLMs (via Ollama)** to ensure **data privacy**, **speed**, and **reliability**.  
 This makes it ideal for **research**, **academia**, and **enterprise environments** where privacy and transparency are crucial.
 
-🚀 Project Overview
+---
 
 ### 🔍 What It Does
 SmartQuery enables users to:
@@ -19,11 +16,8 @@ SmartQuery enables users to:
 
 It integrates **semantic search (retrieval)** and **local language modeling (generation)** to simulate a fully autonomous, explainable AI assistant.
 
----
 
 ## 🧩 System Architecture
-
-```
 
 ```
             ┌────────────────────┐
@@ -56,7 +50,7 @@ It integrates **semantic search (retrieval)** and **local language modeling (gen
          └────────────────────┘
 ```
 
-````
+
 
 ---
 
@@ -223,7 +217,11 @@ This ensures maximum privacy and makes SmartQuery suitable for sensitive domains
 ## 🧾 Credits
 
 **Developed by:** Disha Jillella
+
 **Institution:** CBIT, Hyderabad, Telangana
+
 **Mentor:** [Dr. Y Ramadevi]
+
 **Year:** 2025
+
 **Technologies:** Python, FAISS, SentenceTransformers, Ollama
